@@ -1,0 +1,30 @@
+body {
+    background-color: #f4f6f9 !important;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Card Styling */
+.card {
+    background-color: #ffffff;
+}
+
+/* Completed Task Styling */
+.completed-task {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+/* Checkbox Style */
+.form-check-input {
+    cursor: pointer;
+    width: 1.2em;
+    height: 1.2em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
